@@ -4,7 +4,7 @@ author: forhot2000@qq.com
 date: 2024/04/10
 ---
 
-# Spring AOP 元注解
+# Spring AOP 拦截元注解
 
 ## 什么是元注解（meta annotation）
 
