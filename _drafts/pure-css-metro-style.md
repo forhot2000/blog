@@ -8,7 +8,9 @@ categories: css
 
 ## preview
 
-https://codepen.io/forhot2000/pen/jyVRbq
+[https://codepen.io/forhot2000/pen/jyVRbq](https://codepen.io/forhot2000/pen/jyVRbq)
+
+<script src='https://cdn.jsdelivr.net/gh/eddymens/markdown-external-link-script@v2.0.0/main.min.js'></script>
 
 ## source code
 
