@@ -6,7 +6,7 @@ date: 2024/01/18
 
 # Next.js 发布静态网站到 Pages
 
-# 配置构建静态网站
+## 配置构建静态网站
 
 配置 next build 生成静态网站，设置 output 为 export，修改 `next.config.js`
 
@@ -22,7 +22,7 @@ const nextConfig = {
 module.exports = nextConfig;
 ```
 
-# 动态路由
+## 动态路由
 
 对于动态路由的页面 ，我们还需要告诉 Next.js 需要生成那些页面。
 
@@ -73,7 +73,7 @@ export default function Page({ post }) {
 }
 ```
 
-# 配置 basePath
+## 配置 basePath
 
 Pages 默认生成的链接是一个带有仓库名称的二级目录链接，为了正常访问页面，我们需要设定 Next.js 的 basePath 设置，修改 `next.config.js`
 
@@ -90,11 +90,11 @@ module.exports = nextConfig;
 
 如果你使用了与用户名相同的仓库名， Pages 可以生成不带二级目录的链接，那么你就可以不需要配置 basePath 了。
 
-# 构建
+## 构建
 
 配置好了之后，可以运行 `npm run build` 生成静态网站到 dist 目录
 
-# 发布
+## 发布
 
 接下来我们就可以把 dist 目录发布到 Pages 或其它托管平台了。
 

@@ -1,11 +1,10 @@
 ---
-title: Pure CSS Metro Style
 categories: css
 author: forhot2000@qq.com
 date: 2017/01/18
 ---
 
-用 CSS 实现 windows 的 Metro 风格样式。
+# 用 CSS 实现 windows 的 Metro 风格样式
 
 ## preview
 
@@ -17,13 +16,16 @@ html
 
 ```html
 <div class="container bg-gray">
-
   <div class="row bg-yellow">
     <div class="card card-small bg-green">
       <label class="center">A block of long title</label>
     </div>
     <div class="card bg-gray">
-      <span class="">text must contains in an element with class [center | [top|bottom]-[left|right] ], otherwise, it will display error in iOS.</span>
+      <span class=""
+        >text must contains in an element with class [center |
+        [top|bottom]-[left|right] ], otherwise, it will display error in
+        iOS.</span
+      >
     </div>
     <div class="card card-wide bg-red"></div>
     <div class="card card-small bg-red">
@@ -59,14 +61,16 @@ html
     </div>
     <div class="card card-wide bg-yellow">
       <label class="center">there is a image, wait loading...</label>
-      <img class="center fullfill" src="https://www.baidu.com/img/bd_logo1.png" />
+      <img
+        class="center fullfill"
+        src="https://www.baidu.com/img/bd_logo1.png"
+      />
       <label class="top-left">top-left</label>
       <label class="top-right">top-right</label>
       <label class="bottom-left">bottom-left</label>
       <label class="bottom-right">bottom-right</label>
     </div>
   </div>
-
 </div>
 ```
 

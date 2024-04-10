@@ -1,9 +1,10 @@
 ---
-title: Upgrade OpenSSH in CentOS 7
 categories: linux
 author: forhot2000@qq.com
 date: 2017/09/04
 ---
+
+# Upgrade OpenSSH in CentOS 7
 
 最近某个客户请了安全公司扫描了下他们的服务器，发现 SSH 存在许多安全漏洞，原因是 CentOS 7 使用了一个比较旧的 OpenSSH 版本 v6.6.1，而这些漏洞在新版的 OpenSSH 中均已被修复，所以我们就开始了升级 OpenSSH 的趟坑之旅。
 
@@ -79,18 +80,18 @@ cp /etc/pam.d/sshd /etc/pam.d/sshd.old
 
 ```sh
 cat > /etc/pam.d/sshd <<EOF
-#%PAM-1.0 
-auth required pam_sepermit.so 
-auth include password-auth 
-account required pam_nologin.so 
-account include password-auth 
-password include password-auth 
-# pam_selinux.so close should be the first session rule 
-session required pam_selinux.so close 
-session required pam_loginuid.so 
-# pam_selinux.so open should only be followed by sessions to be executed in the user context 
-session required pam_selinux.so open env_params 
-session optional pam_keyinit.so force revoke 
+#%PAM-1.0
+auth required pam_sepermit.so
+auth include password-auth
+account required pam_nologin.so
+account include password-auth
+password include password-auth
+# pam_selinux.so close should be the first session rule
+session required pam_selinux.so close
+session required pam_loginuid.so
+# pam_selinux.so open should only be followed by sessions to be executed in the user context
+session required pam_selinux.so open env_params
+session optional pam_keyinit.so force revoke
 session include password-auth
 EOF
 ```
