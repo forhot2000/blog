@@ -1,8 +1,8 @@
 ---
-layout: post
-title:  AngularJS Custom Directive Validation on Array Model
-date:   2017-01-17 17:19:00 +0800
+title: AngularJS Custom Directive Validation on Array Model
 categories: angular
+author: forhot2000@qq.com
+date: 2017/01/17
 ---
 
 我们常常需要自定义一些输入控件，如选择用户控件，在 angularjs 中允许我们添加自定义 directive，于是，

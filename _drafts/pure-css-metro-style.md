@@ -1,7 +1,8 @@
 ---
-layout: post
-title:  Pure CSS Metro Style
+title: Pure CSS Metro Style
 categories: css
+author: forhot2000@qq.com
+date: 2017/01/18
 ---
 
 用 CSS 实现 windows 的 Metro 风格样式。

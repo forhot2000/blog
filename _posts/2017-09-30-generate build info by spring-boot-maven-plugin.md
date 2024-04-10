@@ -1,8 +1,8 @@
 ---
-layout: post
-title:  Generate build info by spring-boot-maven-plugin
-date:   2017-09-30 12:54:00 +0800
-categories: java
+title: Generate build info by spring-boot-maven-plugin
+categories: java spring
+author: forhot2000@qq.com
+date: 2017/09/30
 ---
 
 Spring Boot Actuator 为我们提供了很多调试信息，其中包含一个 /info ，用于显示应用程序的信息（在 `application.properties` 中以 `info.` 开始的配置项），通常我们可以在这里显示 `scm-url`, `build-url`, `version`, `description` 等信息，而这些信息一般又存放在 `pom.xml` 中的，我们希望仅修给一个地方就可以同时在 pom 和 actuator info 两个地方生效，幸运的是 `spring-boot-maven-plugin` 能为我们做到这些。

@@ -1,7 +1,8 @@
 ---
-layout: post
-title:  AngularJS User Name Input Directive 
+title: AngularJS User Name Input Directive
 categories: angular
+author: forhot2000@qq.com
+date: 2017/01/18
 ---
 
 弹出对话框选人可以方便用户以目录的形式显示企业组织架构，但对于进程输入用户的人来说操作起来有点麻烦，而像 Gmail 那样，
