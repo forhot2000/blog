@@ -8,12 +8,7 @@ categories: css
 
 ## preview
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="jyVRbq" data-user="forhot2000" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/forhot2000/pen/jyVRbq">
-  pure css metro style</a> by west wang (<a href="https://codepen.io/forhot2000">@forhot2000</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+https://codepen.io/forhot2000/pen/jyVRbq
 
 ## source code
 
