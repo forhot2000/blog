@@ -61,8 +61,9 @@ public class TestController {
 
     @RequestMapping("/test")
     @OperationLog
-    public void test() {
+    public String test() {
         System.out.println("on test");
+        return "test message";
     }
 }
 ```
@@ -105,7 +106,8 @@ public class TestController {
 
     @Operation("/test")
     public String test() {
-        return "test";
+        System.out.println("on test");
+        return "test message";
     }
 }
 ```
